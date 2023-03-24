@@ -1,0 +1,3 @@
+Segue exercício de fixação de conteúdo.
+
+Questoes em POO em PHP.
