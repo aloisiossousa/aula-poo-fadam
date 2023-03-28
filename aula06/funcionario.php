@@ -7,7 +7,7 @@ $empresa = new Empresa("Fabrica Leite", 100081828992, "Arnaldo Dias", "CEO");
 
 
 
-echo "Empresa";
+echo "Empresa {$empresa->razaoSocial}";
 
 
 ?>
