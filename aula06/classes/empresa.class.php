@@ -15,8 +15,6 @@ class Empresa{
     	$this->cargo = $cargo;
     }
     
-     
-
     function Contratar(){
     
         if($this->cargo == false){

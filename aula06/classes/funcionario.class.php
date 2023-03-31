@@ -5,7 +5,6 @@ class Funcionario extends Empresa{
     public $nome;
     public $matricula;
     public $dataAdmissao;
-
     public $funcao;
 
     
@@ -19,7 +18,6 @@ class Funcionario extends Empresa{
         $this->funcao = $funcao;
 
     }
-
 
     function trabalhar(){
         echo "Costurando";
