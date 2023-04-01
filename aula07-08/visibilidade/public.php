@@ -13,15 +13,19 @@ class Pessoa{
         return $this->nome;
         
     }
+    public function showIdade(){
+        return $this->idade;
+    }
 }
 
 $pessoa = new Pessoa();
 
 $pessoa->nome = "Aloisio";
-$pessoa->idade = 42;
+$pessoa->idade = 43;
 $pessoa->showNome();
+$pessoa->showIdade();
 
 echo "{$pessoa->nome} {$pessoa->idade} <br>";
-echo "{$pessoa->showNome()}";
+echo "{$pessoa->showNome()} {$pessoa->showIdade()}";
 
 ?>
