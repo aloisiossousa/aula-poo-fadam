@@ -4,7 +4,7 @@
 //private
 
 class Pessoa{
-    private $nome = "Aloisio Sousa";//Atributo ou variáveis
+    private $nome = "Aloisio Sousa teste ";//Atributo ou variáveis
     private $idade = 43;
 
     public function showNome(){
@@ -32,15 +32,15 @@ class FilhaPessoa extends Pessoa{
 }
 
 $pessoa = new Pessoa();
-// $pessoa->nome = "Aloisio Sousa "; acessando se atributo for public
+//$pessoa->nome = "Aloisio Sousa ";// acessando se atributo for public
 
-// echo "{$pessoa->showNome()}";
+echo "{$pessoa->showNome()}";
 
-// echo "{$pessoa->showIdade()}";
+echo "{$pessoa->showIdade()}";
 
-$filha = new FilhaPessoa();
+// $filha = new FilhaPessoa();
 
-echo "{$filha->showFilhaNome()}";
-echo "{$filha->showFilhaIdade()}";
+// echo "{$filha->showFilhaNome()}";
+// echo "{$filha->showFilhaIdade()}";
 
 ?>

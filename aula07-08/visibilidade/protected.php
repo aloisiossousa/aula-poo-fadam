@@ -4,8 +4,8 @@
 //protected
 
 class Pessoa{
-    protected $nome = "Aloisio Sousa";
-    protected $idade = 43;
+    protected $nome = "Mateus";
+    protected $idade = 28;
 
     public function showNome(){
         return $this->nome;
@@ -31,12 +31,14 @@ class FilhaPessoa extends Pessoa{
 }
 
 $pessoa = new Pessoa();
-//$pessoa->nome = "Aloisio Silva";
-//echo "{$pessoa->nome}";
-//echo "{$pessoa->showNome()}";
-// echo "{$pessoa->showNome()}";
+// $pessoa->nome = "Aloisio Silva";
+// echo "{$pessoa->nome}";
 
-//echo "{$pessoa->showIdade()}";
+//Acesso pelo método public da classe
+// echo "{$pessoa->showNome()}";
+// echo "{$pessoa->showIdade()}";
+
+
 
 $filha = new FilhaPessoa();
 
