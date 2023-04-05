@@ -20,4 +20,14 @@ class Pessoa {
     }
 }
 
+$pessoa = new Pessoa();
+//$pessoa->nome;
+
+$pessoa->setNome('Aloisio');
+$pessoa->setIdade(25);
+
+echo "{$pessoa->getNome()} ";
+echo "{$pessoa->getIdade()}";
+
+
 ?>
