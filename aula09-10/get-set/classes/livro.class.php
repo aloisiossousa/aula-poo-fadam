@@ -41,6 +41,6 @@ class Livro {
 
 $livro = new Livro();
 
-$livro->setAutor("Suasuna");
 
+$livro->setAutor("Suasuna");
 echo "{$livro->getAutor()}";
