@@ -42,5 +42,5 @@ class Livro {
 $livro = new Livro();
 
 
-$livro->setAutor("Suasuna");
-echo "{$livro->getAutor()}";
+$livro->setTitulo("A volta de quem não foi...");
+echo "{$livro->getTitulo()}";
