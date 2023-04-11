@@ -22,10 +22,10 @@ class ContaBancaria {
 
 $conta = new ContaBancaria();
 
-$conta->setSaldo(2000);
-$conta->setLimite(5000);
+$conta->setSaldo(10000);
+$conta->setLimite(15000);
 
-echo "Meu Saldo é {$conta->getSaldo()}";
+echo "Meu Saldo é {$conta->getSaldo()} <br> \n";
 echo "Meu limite é {$conta->getLimite()}";
 
 

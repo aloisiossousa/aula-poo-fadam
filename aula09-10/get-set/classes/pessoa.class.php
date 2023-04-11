@@ -23,11 +23,11 @@ class Pessoa {
 $pessoa = new Pessoa();
 //$pessoa->nome;
 
-$pessoa->setNome('Aloisio');
-$pessoa->setIdade(25);
+$pessoa->setNome('Mateus');
+$pessoa->setIdade(20);
 
 echo "{$pessoa->getNome()} ";
-echo "{$pessoa->getIdade()}";
+echo "{$pessoa->getIdade()} anos.";
 
 
 ?>

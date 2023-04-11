@@ -38,3 +38,9 @@ class Livro {
         $this->ano = $ano;
     }
 }
+
+$livro = new Livro();
+
+$livro->setAutor("Suasuna");
+
+echo "{$livro->getAutor()}";
