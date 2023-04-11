@@ -33,22 +33,18 @@ class Funcionarios{
 		$this->nome = $nome;
 		
 	}
-	
-	
+
 	public function getRg() {
 		return $this->rg;
 	}
-	
 	
 	public function setRg($rg) {
 		$this->rg = $rg;
 	}
 	
-	
 	public function getDepartamento() {
 		return $this->departamento;
 	}
-	
 	
 	public function setDepartamento($departamento){
 		$this->departamento = $departamento;
@@ -60,6 +56,10 @@ class Funcionarios{
 $fun1 = new Funcionarios("","","","");
 
 $fun1->setMatricula(1999999);
+$fun1->setNome("Samuel");
+$fun1->setRg(10000000);
 echo "{$fun1->getMatricula()}";
+echo "{$fun1->getNome()}";
+echo "{$fun1->getRg()}";
 
 ?>
