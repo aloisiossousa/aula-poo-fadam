@@ -1,7 +1,6 @@
 <?php
 
 //Agência, conta, saldo, detalhes, depositar, sacar(método abstrato)
-
 abstract class Conta{
     protected $agencia, $conta, $saldo;
 
@@ -11,9 +10,9 @@ abstract class Conta{
         $this->saldo = $saldo;
 
     }
-
     //Este método está sendo o getDestalhes
     public function detalhes(): void{
+        echo "Extrato da conta \n";
         echo "Agência: {$this->agencia}, ";
         echo "Conta: {$this->conta}, ";
         echo "Saldo: {$this->saldo} \n";
