@@ -1,4 +1,5 @@
 <?php
+
 require_once 'carrinhoInterface.php';
 class Produto implements CarrinhoInterface{
     private $nome, $preco;
