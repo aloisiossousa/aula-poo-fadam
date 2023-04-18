@@ -12,7 +12,7 @@ abstract class Conta{
     }
     //Este método está sendo o getDestalhes
     public function detalhes(): void{
-        echo "Extrato da conta \n";
+        echo "Extrato da conta do Cliente \n";
         echo "Agência: {$this->agencia}, ";
         echo "Conta: {$this->conta}, ";
         echo "Saldo: {$this->saldo} \n";

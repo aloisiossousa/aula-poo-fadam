@@ -6,7 +6,7 @@ include_once 'classes/conta.php';
 include_once 'classes/contaCorrente.php';
 include_once 'classes/contaPoupanca.php';
 
-$cp = new ContaPoupanca(123456, 654321, 10);
+$cp = new ContaPoupanca(123456, 654321, 100);
 $cp->sacar(10);
 $cp->depositar(20);
 $cp->sacar(10);
