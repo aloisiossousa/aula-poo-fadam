@@ -1,7 +1,6 @@
 <?php
 
 class ContaCorrente extends Conta{
-
     private $limite;
 
     public function __construct(int $agencia, int $conta, float $saldo, float $limite){

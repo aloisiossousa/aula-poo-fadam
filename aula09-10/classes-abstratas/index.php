@@ -6,17 +6,17 @@ include_once 'classes/conta.php';
 include_once 'classes/contaCorrente.php';
 include_once 'classes/contaPoupanca.php';
 
-$cp = new ContaPoupanca(123456, 654321, 100);
-$cp->sacar(10);
-$cp->depositar(20);
-$cp->sacar(10);
+// $cp = new ContaPoupanca(123456, 654321, 100);
+// $cp->sacar(10);
+// $cp->depositar(20);
+// $cp->sacar(10);
 
 echo "################ ############### ############## \n";
 
-// $cc = new ContaCorrente(123456, 654321, 0, 100);
-// $cc->sacar(40);
-// $cc->depositar(100);
-// $cc->sacar(1500);
+$cc = new ContaCorrente(123456, 654321, 1000, 100);
+$cc->sacar(50);
+$cc->depositar(100);
+$cc->sacar(1500);
 
 
 
